@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline';">
+
 
   <title>Netflix</title>
   <link rel="stylesheet" href="style.css">
@@ -22,6 +22,7 @@
       <img width="68" src="./images/My Netflix image.png" class="nav_my netflix" alt="">
     </div>
   </div>
+
 
   <!-- banner -->
   <header id="banner">
@@ -44,11 +45,12 @@
     </div>
   </div>
 
+
   <script>
-    window.addEventListener("scroll", function () {
+    Window.addEventListener("scroll", function () {
       var nav = document.querySelector(".nav");
       nav.classList.toggle("active", window.scrollY > 0);
-    });
+    })
   </script>
 </body>
 
